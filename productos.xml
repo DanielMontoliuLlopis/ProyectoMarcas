@@ -1,0 +1,15 @@
+<productos>
+    <palas>
+        <pala>
+            <nombre></nombre>
+            <precio></precio>
+            <img></img>
+            <marca></marca>
+            <descripcion></descripcion>
+        </pala>
+
+    
+
+
+    </palas>
+</productos>
