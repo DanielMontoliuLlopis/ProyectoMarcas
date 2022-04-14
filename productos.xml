@@ -1,93 +1,74 @@
 <productos>
     <palas>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>ADIDAS PRO CARBON CTRL GOLD</nombre>
+            <precio>149,95€</precio>
+            <img>imgs\adidas-pro-carbon-gold.png</img>
+            <marca>Adidas</marca>
+            <descripcion>ADIDAS PRO CARBON CTRL GOLD - YA PUEDES HACERTE CON ESTA PALA DE CONTROL DE LA NUEVA COLECCIÓN ADIDAS 2020, UN DISEÑO EXCLUSIVO IDEAL PARA LOS JUGADORES DE ALTO NIVEL. GRAN CONTROL Y PRECISIÓN</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>ADIDAS MATCH LIGHT 3.1 2022</nombre>
+            <precio>49,95€</precio>
+            <img>imgs\adidas-match-light-31.jpg</img>
+            <marca>Adidas</marca>
+            <descripcion>ADIDAS MATCH LIGHT 3.1 2022 - YA PUEDES CONOCER LA PALA DE LA NUEVA COLECCIÓN DE ADIDAS 2022, PRESENTANDO MATERIALES DE ALTA CALIDAD.</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>ADIDAS RX 100 2022</nombre>
+            <precio>83,95€</precio>
+            <img>imgs\adidas-rx-100.jpg</img>
+            <marca>Adidas</marca>
+            <descripcion>ADIDAS RX 100 2022 - CONTROL, POTENCIA Y FACILIDAD DE USO CON ESTA NUEVA PALA DE PÁDEL DISEÑADA CON MATERIALES CÓMODOS Y LIGEROS PARA DISFRUTAR TUS MOMENTOS EN LA CANCHA.</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>ADIDAS METALBONE HRD 2022</nombre>
+            <precio>324,95€</precio>
+            <img>imgs\adidas-metalbone-hrd-31.jpg</img>
+            <marca>Adidas</marca>
+            <descripcion>LA PALA DE ALE GALÁN PARA LOS PARTIDOS MÁS AGRESIVOS, ADIDAS METALBONE HRD 3.1 2022 TE OFRECE LA MAYOR POTENCIA EN CADA GOLPEO DEBIDO A SU GOMA HIGH MEMORY.</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>ADIDAS ADIPOWER LIGHT 3.0</nombre>
+            <precio>169,95€</precio>
+            <img>imgs\adidas-adipower-light-30.jpg</img>
+            <marca>Adidas</marca>
+            <descripcion>LLEGA LA NUEVA ARMA DE MATITA ORTEGA EN EL WORLD PADEL TOUR LLEGA A PADEL NUESTRO. LA ADIDAS ADIPOWER LIGHT 3.0 ES UNA PALA REDONDA CON ALTAS PRESTACIONES PARA JUGADORAS CON UN ALTO NIVEL. EL NÚCLEO INTERNO ESTA FORMADO POR LA GOMA EVA SOFT ENERGY PROPORCIONAN UNA EXCELENTE SENSACIÓN DE CONFORT.</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>SIUX BLACK CARBON MATE</nombre>
+            <precio>179,00€</precio>
+            <img>imgs\siux-black-carbon-mate.png</img>
+            <marca>Siux</marca>
+            <descripcion>SIUX BLACK CARBON MATE, DISEÑO MINIMALISTA Y ESPECTACULAR, ES UNA PALA CON UN RENDIMIENTO ESPECTACULAR, CON MUY BUENA POTENCIA Y CONTROL, UNA PALA CON LA QUE DISFRUTAR</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>SIUX ASTRA CARBON ATTK</nombre>
+            <precio>118,17€</precio>
+            <img>imgs\siux-astra-carbon-attk.png</img>
+            <marca>Siux</marca>
+            <descripcion>SIUX ASTRA CARBON ATTK - UNA PALA DE PÁDEL DE ALTA CALIDAD QUE SE CARACTERIZA POR SU DURABILIDAD, ES PARA EL PÁDEL DE NIVEL PROFESIONAL O AVANZADO.</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>SIUX ADRENALINE TEX</nombre>
+            <precio>149,95€</precio>
+            <img>imgs\siux-adrenaline-tex.png</img>
+            <marca>Siux</marca>
+            <descripcion>SIUX ADRENALINE TEX - DESTACA EN LA PISTA DE PÁDEL CON ESTA PALA SIUX, UNA PALA DE POTENCIA Y CONTROL PENSADA PARA LOS JUGADORES MÁS EXPERTOS. ES EQUILIBRADA Y RESISTENTES.</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>SIUX SX5</nombre>
+            <precio>89,95€</precio>
+            <img>imgs\siux-sx5.png</img>
+            <marca>Siux</marca>
+            <descripcion>SIUX SX5 - UN MODELO MUY COMPLETO DE SIUX, CREADO PARA QUE GOCES DEL CONTROL Y DE LA POTENCIA MIENTRAS JUEGAS PÁDEL. ES UNA PALA DURADERA Y DE ALTA CALIDAD.</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
-        </pala><pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
-        </pala><pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
-        </pala>
-        <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>SIUX INSPIRE 3.0</nombre>
+            <precio>76,99€</precio>
+            <img>imgs\siux-inspire3.0.png</img>
+            <marca>Siux</marca>
+            <descripcion>SIUX INSPIRE 3.0 - NO DUDES EN HACERTE CON ESTA MAGNÍFICA PALA DE GRAN CALIDAD, QUE TE OFRECE LAS MEJORES PRESTACIONES PARA DOMINAR EL PARTIDO.</descripcion>
         </pala>
         <!--aaaaaaaaaaa-->
         <pala>
