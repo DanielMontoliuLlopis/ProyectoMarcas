@@ -91,71 +91,76 @@
         </pala>
         <!--aaaaaaaaaaa-->
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>BABOLAT REVEAL</nombre>
+            <precio>48,25</precio>
+            <img>imgs/babolat_reveal.png</img>
+            <marca>Babolat</marca>
+            <descripcion>Compite con esta genial pala de diseño original muy ligera que te ayuda a mantener el control en la pista.</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>BABOLAT COUNTER VERTUO</nombre>
+            <precio>99,95</precio>
+            <img>imgs/babolat-counter-vertuo-2022.png</img>
+            <marca>Babolat</marca>
+            <descripcion>Explota todo el rendimiento de esta nueva pala, diseñada para lograr mayor salida y potencia en los golpeos. Con ella te convertirás en el rey de la pista, gracias a su impresionante equilibrio entre control y potencia.</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>BABOLAT TECHNICAL VERON 2022</nombre>
+            <precio>177,44</precio>
+            <img>imgs/pala-babolat-technical-veron-2022.png</img>
+            <marca>Babolat</marca>
+            <descripcion>pensada para los jugadores con una buena técnica que precisan una Pala de Potencia. MEJOR PRECIO. Padel Nuestro</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
-        </pala><pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>BABOLAT REFLEX</nombre>
+            <precio>75,71</precio>
+            <img>imgs/babolat-REFLEX-158-1-face.png</img>
+            <marca>Babolat</marca>
+            <descripcion>ES UNA PALA DE POTENCIA CREADA PARA LOS JUGADORES PRINCIPIANTES. DESTACA POR SU EXCELENTE MANEJABILIDAD Y ALTAS PRESTACIONES A LA HORA DEL JUEGO.</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>BABOLAT STORM</nombre>
+            <precio>64,73</precio>
+            <img>imgs/babolat-STORM-1-face.png</img>
+            <marca>Babolat</marca>
+            <descripcion>CONSIGUE EXCELENTES PRESTACIONES DENTRO DE LA PISTA CON ESTA PALA DE GRAN DISEÑO Y CALIDAD, QUE TE HARÁ DESTACAR EN TUS JUEGOS.</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>NOX AT10 GENIUS JR BY AGUSTIN TAPIA 2022</nombre>
+            <precio>53,99</precio>
+            <img>imgs/pala-nox-at10-genius-arena-by-agustin-tapia-2022.png</img>
+            <marca>Nox</marca>
+            <descripcion>CON EL EL USO DE UN CUADRO DE CARBONO LE DA A LA PALA UNA MAYOR ROBUSTEZ PARA UNA DURABILIDAD SUPERIOR.</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>NOX XONE EVO COLOURS</nombre>
+            <precio>91,99</precio>
+            <img>imgs/pala-nox-x-one-evo-colours.png</img>
+            <marca>Nox</marca>
+            <descripcion>DESTACA EN LA PISTA CON LA NUEVA PALA NOX DESTINADA A LOS JUGADORES DE NIVEL INICIACIÓN.</descripcion>
         </pala>
         <pala>
-            <nombre></nombre>
-            <precio></precio>
-            <img></img>
-            <marca></marca>
-            <descripcion></descripcion>
+            <nombre>NOX ML10 PRO CUP BLACK EDITION 2022</nombre>
+            <precio>174,91</precio>
+            <img>imgs/nox-pro-cup-black-2022.png</img>
+            <marca>Nox</marca>
+            <descripcion>CON LA APLICACIÓN DE MÁS CANTIDAD DE MATERIAL DESDE EL MARCO HASTA CUATRO CENTÍMETROS DENTRO DE LA CARA SE MINIMIZA LA DIFERENCIA DE DUREZA ENTRE EL MARCO Y LA CARA.</descripcion>
+        </pala>
+        <pala>
+            <nombre>NOX EQUATION WPT ADVANCED SERIES 2022</nombre>
+            <precio>134,99</precio>
+            <img>imgs/pala-nox-equation-wpt-2022.png</img>
+            <marca>Nox</marca>
+            <descripcion>PALA DE PÁDEL DISEÑADA PARA BRINDARTE CONTROL EN TUS MOVIMIENTOS Y POTENCIA EN CADA GOLPE. CÓMODA, FÁCIL DE USAR.</descripcion>
         </pala>
 
-
-    
-
+        <pala>
+            <nombre>NOX AT GENIUS LIMITED EDITION</nombre>
+            <precio>390</precio>
+            <img>imgs/NOX AT GENIUS LIMITED EDITION.png</img>
+            <marca>Nox</marca>
+            <descripcion>ÉCHALE UN VISTAZO A ESTA PALA DE EXCELENTE RENDIMIENTO, EN SU VERSIÓN LIMITADA CON ESTE PACK MÁS COMPLETO PARA TUS PARTIDOS DE PADEL.</descripcion>
+        </pala>
 
     </palas>
 </productos>
