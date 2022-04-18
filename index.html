@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="estilos.css" rel="stylesheet"/>
+    <link href="estilosB.css" rel="stylesheet"/>
     <title>-Tienda</title>
-    <script src="productos.js"></script>
+    
 </head>
 <body>
+    <div class="cosa">
     <header>
         <img id="logo" src="imgs/logo.png"/>
         <h1>Padel de Marcas</h1>
-
+        <img id="cambiarModo" src="imgs/ModoClaro.png" alt="">
     </header>
     <nav>
         <ul>
@@ -19,12 +20,12 @@
             <li><a href="QuienesSomos.html">Quienes Somos</a></li>
             <li><a href="contacto.html">Contacto</a></li>
             <li><a href="#"> </a></li>
-
         </ul>
     </nav>
+</div>
     <aside>
           <table>
-            <tr><td>Filtrar por Marca</td></tr>
+            <tr><td><br><br>Filtrar por Marca</td></tr>
                 <tr>
                     <td> 
                         <select>
@@ -36,6 +37,13 @@
 
                         </select> 
                     </td>
+                    <td>
+                        <br>
+                        <br>
+                        <br>
+
+                    </td>
+
                 </tr>
                 <tr><td>Filtrar por precio</td></tr>
                 <tr>
@@ -56,12 +64,41 @@
     </aside>
     <main id="page">
 
+        <div class="carta">
+            <article>
+              <img src="imgs/adidas-adipower-light-30.jpg" alt="raqueta"/>
+            </article>
+            <article>
+              <h2>Aqui el nombre</h2>
+              <br>
+              <p class="descripcion">Una descripción</p>
+              <br>
+              <hr>
+                <p class="precio">50 €</p>
+            </article>
+          </div>
+
+          <div class="carta">
+            <article>
+              <img src="imgs/adidas-adipower-light-30.jpg"  alt="raqueta"/>
+            </article>
+            <article>
+              <h2>Aqui el nombre</h2>
+              <br>
+              <p class="descripcion">Una descripción</p>
+              <br>
+              <hr>
+                <p class="precio">50 €</p>
+            </article>
+          </div>
 
     </main>
+    <br>
     <footer>
         <p>Daniel Montoliu y Pau Botella</p>
         <p>Dia de Inicio: 14/4/2022</p>
         <p>Dia de Finalización: //2022</p>
     </footer>
 </body>
+<script src="productos.js"></script>
 </html>
