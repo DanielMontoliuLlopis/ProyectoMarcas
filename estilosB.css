@@ -1,6 +1,6 @@
 * {
-    margin: 10px;
-    padding: 0px;
+    margin: 0px;
+    padding: 0.2px 10px;
 }
 
 body {
@@ -108,11 +108,12 @@ footer p{
 
 }
 
-article {
+.presencacion {
 
-
-
-}
+    background-color: #C4B4B1;
+    position: fixed;
+    
+  }
 
 .carta img {
 
