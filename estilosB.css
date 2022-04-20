@@ -9,11 +9,7 @@ body {
    
 
 }
-.cosa{
-    
-    position: fixed;
-    
-}
+
 #logo {
 
     width: 250px;
@@ -133,6 +129,7 @@ footer p{
 .presencacion {
 
     background-color: #C4B4B1;
+    margin-left: 200px;
     position: fixed;
     
   }
