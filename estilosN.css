@@ -343,3 +343,43 @@ li :hover {
   display: none;
 
 }
+
+/*Quienes Somos*/
+
+#quienesSomos{
+  margin-top: 250px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+
+}
+#Quienes1{
+  width: 1100px;
+  float: right;
+  margin-right: 30px;
+  
+}
+#quienesSomos img{
+  width: 300px;
+  margin-top: 20px;
+}
+#quienesSomos img:last-child{
+  width: 300px;
+  float: right;
+}
+#Quienes2{
+  width: 1100px;
+  
+  margin-right: 30px;
+}
+
+.quien{
+  border: black solid 1px;
+  min-height: 300px;
+  margin: 40px;
+  background-color: yellowgreen;
+}
+.quien p{
+  padding-top: 80px;
+
+}
+

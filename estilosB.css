@@ -5,11 +5,16 @@
 
 body {
 
-    background-color: #C4B4B1;
-   
-
+    background-color: mediumaquamarine;
 }
 
+
+.presencacion{
+    
+    position: fixed;
+    margin-left: 200px;
+    
+}
 #logo {
 
     width: 250px;
@@ -22,23 +27,24 @@ h1 {
 
     display: inline-block;
     margin-top: 20px;
-    margin-left: 11%;
+    margin-left: 10%;
+    color: red;
 }
 
-
 header {
-    border: solid 1px ;
+    border: solid 1px yellowgreen;
     padding-bottom: 30px;
     margin: 10px 10px 10px 0px;
     border-radius: 10px;
-    background-color: white;
+    background-color:yellowgreen;
+    width: 1390px;
     
 }
 
 #cambiarModo{
     
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom:15px ;
     float: right;
     width: 50px;
     
@@ -46,26 +52,28 @@ header {
 
 nav {
    
-    background-color: aqua;
+    background-color:wheat;
     border-radius: 10px;
-        
+    border: solid 1px black;
+    width: 1390px;
+    text-align: center;
 }
 
 
 nav li {
     
-    display: inline-block;
-    list-style-type: none;
-    margin: 20px 0 20px 0;
-    padding-right: 120px;
-
+  display: inline-block;
+  list-style-type: none;
+  margin: 20px 0 20px 0;
+  padding-right: 110px;
+    color: black;
 }
 nav li:first-child{
-    margin-left:300px ;
+  margin-left:300px ;
 
 }
 nav li:last-child{
-    margin-right: 200px;
+  margin-right: 200px;
 
 }
 
@@ -73,44 +81,43 @@ aside {
     border: solid 1px black;
     float: left;
     width: 10%;
-    margin-left: 10px;
-    height: 600px;
-    border-radius: 10px;
-    position: fixed;
-    margin-right: 30px;
-    display: block;
-    margin-top: 300px;
-    background-color: lightseagreen;
-
+   margin-left: 10px;
+    height: 565px;
+   border-radius: 10px;
+   position: fixed;
+   display: block;
+   margin-top: 300px;
+    background-color: yellowgreen;
+    margin-right: 50px;
+    color: black;
 }
+
 
 aside select{
-    
-   
   
-        width:100px;
-        margin: 8px 0;
-        border: 1px solid moccasin;
-        border-radius: 5px;
-        background-color: moccasin;
-        color: black;
-        margin-bottom: 130px;    
-      
-    
+  width:100px;
+  margin: 10px 0px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: mediumaquamarine;
+  color: black;
+  margin-bottom: 180px;    
 }
 
 
-main {
+#page {
+
     width: 80%;
     padding: 10px;
     margin: 10px;
     float: right ;
-    
+    padding-top: 300px;
+        
 }
 
 footer {
     border: 1px solid black;
-    background-color: wheat;
+    background-color: yellowgreen;
     width: 99%;
     float: left;
     display: block;
@@ -118,7 +125,6 @@ footer {
     color: black;
     padding: 10px;
 }
-
 footer p{
     text-align: center;
     font-size: 15px;
@@ -126,24 +132,26 @@ footer p{
 
 }
 
-.presencacion {
-
-    background-color: #C4B4B1;
-    margin-left: 200px;
-    position: fixed;
-    
-  }
-
 .carta img {
 
     width:300px;
 
 }
 
+
+.presencacion {
+
+  background-color: mediumaquamarine;
+  position: fixed;
+  
+}
+
 .carta {
 
     padding: 30px;
-    background-color: #14253d;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    background-color: yellowgreen;
     border-radius: 10px;
     width: 300px;
     display: inline-block;
@@ -154,24 +162,24 @@ footer p{
   
   .carta h2 {
     
-    color: #82c7a5;
+    color: black;
   
   }
   
   .descripcion {
-    color: #ffffff8c;
-    font-size:15px;
+    color: gray;
+    font-size:13px;
   }
   
   .precio {
   
-    color: #ff073a;
+    color: red;
   
   }
   
   .carta :hover {
   
-    width: 305px;
+    width: 302px;
   
   }
   
@@ -187,61 +195,193 @@ header>div{
     
 }
 
-.desplegar{
-    float: right;
+/*Contacto*/
 
+#paginaContacto {
+
+  margin-top: 250px;
+  margin-left: 300px;
+  margin-bottom: 50px;
+
+}
+
+input[type=text] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    color: black;
+    
+  }
+
+  textarea {
+      background-color: yellowgreen;
+      color: black;
+      border-radius: 5px;
+      border: 1px solid black;
+      width: 1150px;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: mediumaquamarine;
+    color:black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: yellowgreen;
+  }
+  
+.contacto {
+
+    text-align: center;
+    border-radius: 5px;
+    background-color: mediumaquamarine;
+    padding: 20px;
+    color: black;
+    width: 1200px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li :hover {
+
+  color: green;
+  
+
+
+}
+.desplegar{
+  float: right;
+  background-color: yellowgreen;
+  border-radius: 10px;
+  border: 0px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+  width: 55px;
+  height: 55px;
 }
 .esconder{
-    float: right;
+  float: right;
+  background-color: yellowgreen;
+  border-radius: 10px;
+  border: 0px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+  width: 55px;
+  height: 55px;
 
 }
+#faq h2{
+  color:black
+
+}
+
+#faq h1{
+  color:red;
+}
+
 .texto{
-    
-    
+  color: black;
+  
 
 }
 
 #faq{
-    width: 90%;
-    margin-top: 200px;
-    padding: 10px;
-    display: block;
-    
+  width: 90%;
+  margin-top: 225px;
+  padding: 10px;
+  display: block;
+  background-color: mediumaquamarine;
+  border-radius: 25px;
+  margin-left: 50px;
+  
 }
 #faq>article{
-    border: 1px gray solid;
-    display: block;
-    min-height: 60px;
+
+  border-radius: 10px;
+  border: 1px black solid;
+  display: block;
+  min-height: 60px;
 }
 #esconder1{
-    display: none;
+  display: none;
 
 }
 #esconder2{
-    display: none;
+  display: none;
 
 }
 #esconder3{
-    display: none;
+  display: none;
 
 }
 #esconder4{
-    display: none;
+  display: none;
 
 }
 #texto1{
-    display: none;
+  display: none;
 
 }
 #texto2{
-    display: none;
+  display: none;
 
 }
 #texto3{
-    display: none;
+  display: none;
 
 }
 #texto4{
-    display: none;
+  display: none;
 
 }
+
+/*Quienes Somos*/
+
+#quienesSomos{
+    margin-top: 250px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+
+}
+ #Quienes1{
+    width: 1100px;
+    float: right;
+    margin-right: 30px;
+    
+}
+#quienesSomos img{
+    width: 300px;
+    margin-top: 20px;
+}
+#quienesSomos img:last-child{
+    width: 300px;
+    float: right;
+}
+#Quienes2{
+    width: 1100px;
+    
+    margin-right: 30px;
+}
+
+.quien{
+    border: black solid 1px;
+    min-height: 300px;
+    margin: 40px;
+    background-color: yellowgreen;
+}
+.quien p{
+    padding-top: 80px;
+
+}
+
