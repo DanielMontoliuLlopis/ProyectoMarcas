@@ -4,13 +4,16 @@
 }
 
 @media all and (max-width: 820px) {
-  
+  #quienesSomos article{
+    display: block !important;
+  }
   
   .quien img{
-    width: 300px !important;
+    width: 100px !important;
+    margin-left: 50px !important;
 }
 .quien video{
-  width: 300px !important;
+  width: 100px !important;
 }
 
   .quien p {
