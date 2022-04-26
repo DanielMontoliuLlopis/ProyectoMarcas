@@ -8,13 +8,16 @@
     
 </head>
 <body>
+    <!--El div sirve para que las tarjetas no se superpongan al nav o el header-->
     <div class="presencacion">
     <header>
         <img id="logo" src="imgs/logo.png"/>
         <h1><strong>Padel de Marcas</strong></h1>
+        <!--Botón de cambiár de tema-->
         <a href="indexN.html"><img id="cambiarModo" src="imgs/ModoOscuro.png" alt=""></a>
         
     </header>
+    <!--Barra de navegación para cambiar entre las distintas páginas de la web-->
     <nav>
         <ul>
             <li><a href="#">Tienda</a></li>
@@ -28,14 +31,17 @@
           <table>
             <tr><td><br><br>Filtrar por Marca</td></tr>
                 <tr>
-                    <td> 
+                    <td>
+                        <!--
+                            Filtrador, usa una función que segun el value de la opcíon solo se mostraran las cartas con la misma marca por valor
+                            el 0 es que se mostraran todas las cartas
+                        -->
                         <select id="filtrador" onchange="loadDoc()">
                             <option default value="0"></option>
                             <option value="Adidas">Adidas</option>
                             <option value="Nox">Nox</option>
                             <option value="Siux">Siux</option>
                             <option value="Babolat">Babolat</option>
-
                         </select> 
                     </td>
                     <td>
@@ -50,6 +56,7 @@
 
           </table>  
     </aside>
+    <!--En el main se generarán las cartas de las raquetas a partir del xml-->
     <main id="page">
 
     </main>
@@ -60,5 +67,6 @@
         <p>Dia de Finalización: //2022</p>
     </footer>
 </body>
+<!--Llamar al script que genera las cartas y el que tiene también la función del filtro-->
 <script src="productos.js"></script>
 </html>

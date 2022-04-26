@@ -1,3 +1,4 @@
+/*Funciones de generador de las cartas*/
 function loadDoc() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
@@ -18,7 +19,7 @@ function loadDoc() {
     var div="";
     var x = xmlDoc.getElementsByTagName("pala");
     for (i = 0; i <x.length; i++) {
-
+      /*Se comprueban los value de las option y segun eso se despliegan los filtros correspondiente*/
       if(valor == "0"){
         div += "<div class='carta'><article> <img src='"+
         x[i].getElementsByTagName("img")[0].childNodes[0].nodeValue +"' alt='raqueta'/></article>"

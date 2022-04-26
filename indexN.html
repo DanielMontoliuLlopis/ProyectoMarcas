@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Botón de cambiár de tema-->
     <link id="css" href="estilosN.css" rel="stylesheet"/>
     <title>-Tienda</title>
     
 </head>
 <body>
+    <!--El div sirve para que las tarjetas no se superpongan al nav o el header-->
     <div class="presencacion">
+    <!--Muestra el logo, el título de la web y el botón de cambiar de modo-->
     <header>
         <img id="logo" src="imgs/logo.png"/>
         <h1><strong>Padel de Marcas</strong></h1>
@@ -28,7 +31,11 @@
           <table>
             <tr><td><br><br>Filtrar por Marca</td></tr>
                 <tr>
-                    <td> 
+                    <td>
+                        <!--
+                            Filtrador, usa una función que segun el value de la opcíon solo se mostraran las cartas con la misma marca por valor
+                            el 0 es que se mostraran todas las cartas
+                        -->
                         <select id="filtrador" onchange="loadDoc()">
                             <option default value="0"></option>
                             <option value="Adidas">Adidas</option>
@@ -50,6 +57,7 @@
 
           </table>  
     </aside>
+    <!--En el main se generarán las cartas de las raquetas a partir del xml-->
     <main id="page">
 
     </main>
@@ -60,5 +68,6 @@
         <p>Dia de Finalización: //2022</p>
     </footer>
 </body>
+<!--Llamar al script que genera las cartas y el que tiene también la función del filtro-->
 <script src="productos.js"></script>
 </html>
