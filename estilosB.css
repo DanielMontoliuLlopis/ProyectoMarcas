@@ -269,7 +269,7 @@ footer p{
 /*Le damos tamaño a la imagen de la carta*/
 .carta img {
     width:300px;
-    height:250px ;
+    height:350px ;
 }
 
 /*Estilos a la carta, dandole tamaño color y para que se pongan en horizontal si caben. Overflow permite tener un scroll en la carta para podel leerlo todo*/
@@ -293,25 +293,25 @@ footer p{
   
   }
   
+  /*Color a la descripcion y tamaño*/
   .descripcion {
     color: gray;
     font-size:13px;
   }
   
+  /*Color del precio*/
   .precio {
-  
-    color: red;
+      color: red;
   
   }
   
+  /*Para que cuando el raton este encima resalte*/
   .carta :hover {
-  
     width: 302px;
   
   }
   
   .carta p {
-  
     margin-top: 20px;
     text-align: center;
   
