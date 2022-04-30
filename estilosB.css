@@ -10,14 +10,18 @@
     display: block !important;
   }
   
+  /*Ajustamos las imagenes del quienes somos*/
   .quien img{
     width: 100px !important;
     margin-left: 50px !important;
 }
+
+/*Ajustando el video de quienes somos*/
 .quien video{
   width: 100px !important;
 }
 
+/*Ajustando la posicion de p de dentro de los articles del quienes somos*/
   .quien p {
   float: none !important;
   padding: 0px !important;
@@ -30,22 +34,26 @@
 
 @media all and (max-width: 1412px) {
   /*Ajustamos las paginas para un tamaño maximo de 1412 px*/
-
+  /*Ajustando los articles del quienes somos*/
   .quien {
     width: auto !important;
     font-size: 14px !important;
     height: 350px !important;
   }
 
+  /*Ajustando la imagen del quienes somos*/
   .quien img{
         width: 300px !important;
         margin-left: 27% !important;
   }
+
+  /*Ajustando el video del quienes somos*/
   .quien video{
     width: 300px !important;
     margin-left: 27% !important;
 }
 
+/*Ajustando el texto del quienes somos*/
   .quien p{
     float: none !important;
     padding: 0px !important;
@@ -53,49 +61,61 @@
     width: 300px !important;
   }
 
+  /*Ajustando el header*/
   header {
     width: 700px !important;
   }
 
+  /*Ajustando el titulo del header*/
   h1 {
     margin-left: 0px !important;
 
   }
+
+  /*Ajustando el logo*/
   #logo{
     margin-right: 20px !important;
     margin-top: 10px !important;
     width: 200px !important;
   }
 
+  /*Ajustando la pagina de contacto*/
   #paginaContacto {
     margin-left: 20px !important;
   }
 
+  /*Ajustando la pagina del contacto */
   .contacto {
     margin-left: 0px !important;
     width: 200px !important;
   }
   
+  /*Cambiando el tamaño a los input y el textarea*/
   input,textarea {
     width: 500px !important;
   }
 
+  /*Ajustando el nav*/
   nav {
     width: 700px !important;
     
 
   }
+
+  /*Ajustando la lista del nav*/
   nav li {
     padding-right: 0px !important;
     margin-left: 10px !important;
     margin-right: 20px !important;
   }
 
+  /*Ajustando la posicion de la carta*/
   .carta {
 
     margin-left: 90px;
   }
 
+  /*Ajustando el aside*/
   aside{
     width: 150px !important;
   }
@@ -104,22 +124,28 @@
 
 @media all and (max-width: 1695px) {
   /*Ajustamos las paginas para pantallas mas pequeñas que 1695px*/
+  /*Ajustando el header*/
   .presencacion {
     margin-left: 0px !important; 
   }
 
+  /*Ajustando la pagina de contacto*/
   .contacto {
     margin-left: 10px !important;
   }
+
+  /*Ajustando los articles del quienes somos*/
   .quien {
     width: auto !important;
     font-size: 15px !important;
     height: 400px !important;
   }
 
+  /*Ajustando la imagen del quienes somos*/
   .quien img{
     margin-left: 40% !important;
   }
+  /*Ajustando el video del quienes somos*/
   .quien video{
     margin-left: 40% !important;
   }
@@ -269,7 +295,7 @@ footer p{
 /*Le damos tamaño a la imagen de la carta*/
 .carta img {
     width:300px;
-    height:350px ;
+    height:450px ;
 }
 
 /*Estilos a la carta, dandole tamaño color y para que se pongan en horizontal si caben. Overflow permite tener un scroll en la carta para podel leerlo todo*/
@@ -311,19 +337,18 @@ footer p{
   
   }
   
+  /*Ajustando el texto de la carta*/
   .carta p {
     margin-top: 20px;
     text-align: center;
   
   }
-header>div{
 
-    display: inline-block;
-    
-}
+  
+
 
 /*Contacto*/
-
+/*Ajustando la pagina de contacto*/
 #paginaContacto {
 
   margin-top: 250px;
@@ -332,6 +357,7 @@ header>div{
 
 }
 
+/*Dandole estilos a los inputs de tipo texto (tamaño color borde)*/
 input[type=text] {
     width: 95%;
     padding: 12px 20px;
@@ -343,6 +369,7 @@ input[type=text] {
     
   }
 
+  /*Ajustando el textarea, color borde*/
   textarea {
       background-color: yellowgreen;
       color: black;
@@ -351,23 +378,25 @@ input[type=text] {
       width: 1150px;
   }
   
+  /*Ajustando el boton*/
   input[type=submit] {
     width: 100%;
     background-color: mediumaquamarine;
     color:black;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
+    border: 1px;
     border-radius: 5px;
   }
   
+  /*PAra que cuando este el raton encima del boton cambie de color*/
   input[type=submit]:hover {
     background-color: yellowgreen;
   }
   
+  /*Ajustando el contenido de la pagina*/
 .contacto {
-
-    text-align: center;
+  text-align: center;
     border-radius: 5px;
     background-color: mediumaquamarine;
     padding: 20px;
@@ -375,11 +404,13 @@ input[type=text] {
     width: 1200px;
 }
 
+/*Color a los enlaces del nav*/
 a {
   color: black;
   text-decoration: none;
 }
 
+/*Cunado el raton este encima de los enlaces del nav cambie de color*/
 li :hover {
 
   color: green;
@@ -387,6 +418,9 @@ li :hover {
 
 
 }
+
+/*Preguntas frequentes*/
+/*Ajustando los botones +*/
 .desplegar{
   float: right;
   background-color: yellowgreen;
@@ -397,6 +431,7 @@ li :hover {
   width: 55px;
   height: 55px;
 }
+/*AJustando los botones -*/
 .esconder{
   float: right;
   background-color: yellowgreen;
@@ -408,6 +443,8 @@ li :hover {
   height: 55px;
 
 }
+
+/*Color a las preguntas*/
 #faq h2{
   color:black
 
@@ -417,12 +454,14 @@ li :hover {
   color:red;
 }
 
+/*Para que cuando el raton este encima resalte*/
 .texto{
   color: black;
   
 
 }
 
+/*Ajustando el body de la pagina*/
 #faq{
   width: 90%;
   margin-top: 225px;
@@ -433,13 +472,16 @@ li :hover {
   margin-left: 50px;
   
 }
-#faq>article{
 
+/*Dandole estilos a los articles, para que este uno bajo de otro y tengan bordes*/
+#faq>article{
   border-radius: 10px;
   border: 1px black solid;
   display: block;
   min-height: 60px;
 }
+
+/*Escondiendo los botones de esconder y lo cambiamos cuando se pulse el de desplegar con JavaScript*/
 #esconder1{
   display: none;
 
@@ -474,39 +516,50 @@ li :hover {
 }
 
 /*Quienes Somos*/
-
+/*Ajustando la pagina*/
 #quienesSomos{
     margin-top: 200px;
     margin-left: 70px;
     margin-bottom: 50px;
 
 }
+
+/*Ajustando el primer article, tamaño y psicion */
  #Quienes1{
     width: 1100px;
     float: right;
     margin-right: 30px;
     
 }
+
+/*Ajustando el video, tamaño y posicion */
 #quienesSomos video{
     width: 300px;
     margin-top: 20px;
 }
+
+/*Ajustando la imagen, tamaño y posicion*/
 #quienesSomos img{
     width: 300px;
     margin-top: 20px;
 }
+
+/*Ajustando el 2 article*/
 #Quienes2{
   width: 1100px;
   float: right;
   margin-right: 30px;
 }
 
+/*Estilos basicos a los articles , borde y color */
 .quien{
     border: black solid 1px;
     min-height: 300px;
     margin: 40px;
     background-color: yellowgreen;
 }
+
+/*Posicion del texto*/
 .quien p{
     padding-top: 80px;
 
