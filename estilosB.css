@@ -251,7 +251,7 @@ aside {
     color: black;
 }
 
-/*AAjustamos la lista desplegable y le damos color*/
+/*Ajustamos la lista desplegable y le damos color*/
 aside select{
   width:100px;
   margin: 10px 0px;
@@ -389,7 +389,7 @@ input[type=text] {
     border-radius: 5px;
   }
   
-  /*PAra que cuando este el raton encima del boton cambie de color*/
+  /*Para que cuando este el raton encima del boton cambie de color*/
   input[type=submit]:hover {
     background-color: yellowgreen;
   }

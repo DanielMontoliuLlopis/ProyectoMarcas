@@ -1,18 +1,28 @@
+/*Asignamos los margenes inicales*/
+
 * {
     margin: 0px;
     padding: 0.2px 10px;
 }
 
 @media all and (max-width: 820px) {
+  /*Ajustamos la pagina de quienes Somos para pantallas mas pequeñas que 820 px*/
+  #quienesSomos article{
+    display: block !important;
+  }
   
-  
+  /*Ajustamos las imagenes del quienes somos*/
   .quien img{
-    width: 200px !important;
-}
-.quien video{
-  width: 300px !important;
+    width: 100px !important;
+    margin-left: 50px !important;
 }
 
+/*Ajustando el video de quienes somos*/
+.quien video{
+  width: 100px !important;
+}
+
+/*Ajustando la posicion de p de dentro de los articles del quienes somos*/
   .quien p {
   float: none !important;
   padding: 0px !important;
@@ -24,23 +34,27 @@
 }
 
 @media all and (max-width: 1412px) {
-  
-
+  /*Ajustamos las paginas para un tamaño maximo de 1412 px*/
+  /*Ajustando los articles del quienes somos*/
   .quien {
     width: auto !important;
     font-size: 14px !important;
     height: 350px !important;
   }
 
+  /*Ajustando la imagen del quienes somos*/
   .quien img{
         width: 300px !important;
         margin-left: 27% !important;
   }
+
+  /*Ajustando el video del quienes somos*/
   .quien video{
     width: 300px !important;
     margin-left: 27% !important;
 }
 
+/*Ajustando el texto del quienes somos*/
   .quien p{
     float: none !important;
     padding: 0px !important;
@@ -48,49 +62,61 @@
     width: 300px !important;
   }
 
+  /*Ajustando el header*/
   header {
     width: 700px !important;
   }
 
+  /*Ajustando el titulo del header*/
   h1 {
     margin-left: 0px !important;
 
   }
+
+  /*Ajustando el logo*/
   #logo{
     margin-right: 20px !important;
     margin-top: 10px !important;
     width: 200px !important;
   }
 
+  /*Ajustando la pagina de contacto*/
   #paginaContacto {
     margin-left: 20px !important;
   }
 
+  /*Ajustando la pagina del contacto */
   .contacto {
     margin-left: 0px !important;
-    width: 700px !important;
+    width: 200px !important;
   }
   
+  /*Cambiando el tamaño a los input y el textarea*/
   input,textarea {
     width: 500px !important;
   }
 
+  /*Ajustando el nav*/
   nav {
     width: 700px !important;
     
 
   }
+
+  /*Ajustando la lista del nav*/
   nav li {
     padding-right: 0px !important;
     margin-left: 10px !important;
     margin-right: 20px !important;
   }
 
+  /*Ajustando la posicion de la carta*/
   .carta {
 
     margin-left: 90px;
   }
 
+  /*Ajustando el aside*/
   aside{
     width: 150px !important;
   }
@@ -98,42 +124,52 @@
 }
 
 @media all and (max-width: 1695px) {
-  
+  /*Ajustamos las paginas para pantallas mas pequeñas que 1695px*/
+  /*Ajustando el header*/
   .presencacion {
     margin-left: 0px !important; 
   }
 
+  /*Ajustando la pagina de contacto*/
   .contacto {
     margin-left: 10px !important;
   }
+
+  /*Ajustando los articles del quienes somos*/
   .quien {
     width: auto !important;
     font-size: 15px !important;
     height: 400px !important;
   }
 
+  /*Ajustando la imagen del quienes somos*/
   .quien img{
     margin-left: 40% !important;
   }
+  /*Ajustando el video del quienes somos*/
   .quien video{
     margin-left: 40% !important;
   }
 
 
+
 }
+
+/*Le damos el color de fondo a la pagina*/
 
 body {
 
     background-color: #0d192b;
 }
 
-
+/*Fijamos el header y el nav*/
 .presencacion{
     
     position: fixed;
     margin-left: 200px;
     
 }
+/*Ajustamos el logo del header*/
 #logo {
 
     width: 250px;
@@ -141,7 +177,7 @@ body {
     float: left;
 
 }
-
+/*Ajustamos el titulo de la pagina*/
 h1 {
 
     display: inline-block;
@@ -149,7 +185,7 @@ h1 {
     margin-left: 10%;
     color: red;
 }
-
+/*Le ponemos borde al header y le asignamos un tamaño y color*/
 header {
     border: solid 1px darkblue;
     padding-bottom: 30px;
@@ -159,7 +195,7 @@ header {
     width: 1390px;
     
 }
-
+/*Ajustamos el boton para cambiar de modo*/
 #cambiarModo{
     
     margin-top: 25px;
@@ -168,7 +204,7 @@ header {
     width: 50px;
     
 }
-
+/*Le ponemos borde al nav y le asignamos un tamaño fijo*/
 nav {
    
     background-color:#14253d;
@@ -178,7 +214,7 @@ nav {
     text-align: center;
 }
 
-
+/*Ajustamos la lista para que salga en horizontal con espacio entre ellos*/
 nav li {
     
   display: inline-block;
@@ -187,15 +223,19 @@ nav li {
   padding-right: 110px;
 
 }
+/*Le damos al primer hijo mas margen izquierdo para que quede centrado*/
+
 nav li:first-child{
   margin-left:300px ;
 
 }
+
+/*Le damos al ultimo hijo mas margen derecho para que quede centrado*/
 nav li:last-child{
   margin-right: 200px;
 
 }
-
+/*Ajustamos el aside para que este fijo y le damos los estilos basicos(borde, color, tamaño)*/
 aside {
     border: solid 1px darkblue;
     float: left;
@@ -211,7 +251,7 @@ aside {
     color: #5A7DB3;
 }
 
-
+/*Ajustamos la lista desplegable y le damos color*/
 aside select{
   
   width:100px;
@@ -223,7 +263,7 @@ aside select{
   margin-bottom: 180px;    
 }
 
-
+/*Ajustamos la pagina y le damos la posicion*/
 #page {
 
     width: 80%;
@@ -233,6 +273,7 @@ aside select{
     padding-top: 300px;
         
 }
+/*Ajustamos el footer y le damos los estilos basicos*/
 
 footer {
     border: 1px solid black;
@@ -244,13 +285,15 @@ footer {
     color: white;
     padding: 10px;
 }
+
+/*Ajustamos el texto del footer y le cambiamos el tipo de letra*/
 footer p{
     text-align: center;
     font-size: 15px;
     font-family: 'Updock', cursive;
 
 }
-
+/*Le damos tamaño a la imagen de la carta*/
 .carta img {
 
     width:300px;
@@ -264,6 +307,7 @@ footer p{
   position: fixed;
   
 }
+/*Estilos a la carta, dandole tamaño color y para que se pongan en horizontal si caben. Overflow permite tener un scroll en la carta para podel leerlo todo*/
 
 .carta {
 
@@ -284,24 +328,24 @@ footer p{
     color: #82c7a5;
   
   }
-  
+    /*Color a la descripcion y tamaño*/
   .descripcion {
     color: #ffffff8c;
     font-size:13px;
   }
-  
+  /*Color del precio*/
   .precio {
   
     color: #ff073a;
   
   }
-  
+  /*Para que cuando el raton este encima resalte*/
   .carta :hover {
   
     width: 302px;
   
   }
-  
+  /*Ajustando el texto de la carta*/
   .carta p {
   
     margin-top: 20px;
@@ -315,6 +359,7 @@ header>div{
 }
 
 /*Contacto*/
+/*Ajustando la pagina de contacto*/
 
 #paginaContacto {
 
@@ -323,7 +368,7 @@ header>div{
   margin-bottom: 50px;
 
 }
-
+/*Dandole estilos a los inputs de tipo texto (tamaño color borde)*/
 input[type=text] {
     width: 95%;
     padding: 12px 20px;
@@ -334,7 +379,7 @@ input[type=text] {
     color: white;
     
   }
-
+/*Ajustando el textarea, color borde*/
   textarea {
       background-color: #5A7DB3;
       color: white;
@@ -342,7 +387,7 @@ input[type=text] {
       border: 1px solid blue;
       width: 1150px;
   }
-  
+  /*Ajustando el boton*/
   input[type=submit] {
     width: 100%;
     background-color: dodgerblue;
@@ -352,11 +397,11 @@ input[type=text] {
     border: none;
     border-radius: 5px;
   }
-  
+  /*Para que cuando este el raton encima del boton cambie de color*/
   input[type=submit]:hover {
     background-color: blue;
   }
-  
+  /*Ajustando el contenido de la pagina*/
 .contacto {
 
     text-align: center;
@@ -366,17 +411,21 @@ input[type=text] {
     color: white;
     width: 1200px;
 }
-
+/*Color a los enlaces del nav*/
 a {
   color: greenyellow;
   text-decoration: none;
 }
-
+/*Cunado el raton este encima de los enlaces del nav cambie de color*/
 li :hover {
 
   color: white;
 
 }
+
+/*Preguntas frequentes*/
+/*Ajustando los botones +*/
+
 .desplegar{
   float: right;
   background-color: #0d192b;
@@ -387,6 +436,7 @@ li :hover {
   width: 55px;
   height: 55px;
 }
+/*AJustando los botones -*/
 .esconder{
   float: right;
   background-color: #0d192b;
@@ -398,6 +448,7 @@ li :hover {
   height: 55px;
 
 }
+/*Color a las preguntas*/
 #faq h2{
   color:#82c7a5
 
@@ -406,13 +457,13 @@ li :hover {
 #faq h1{
   color:yellow;
 }
-
+/*Para que cuando el raton este encima resalte*/
 .texto{
   color: white;
   
 
 }
-
+/*Ajustando el body de la pagina*/
 #faq{
   width: 90%;
   margin-top: 225px;
@@ -423,6 +474,8 @@ li :hover {
   margin-left: 50px;
   
 }
+/*Dandole estilos a los articles, para que este uno bajo de otro y tengan bordes*/
+
 #faq>article{
 
   border-radius: 10px;
@@ -430,6 +483,7 @@ li :hover {
   display: block;
   min-height: 60px;
 }
+/*Escondiendo los botones de esconder y lo cambiamos cuando se pulse el de desplegar con JavaScript*/
 #esconder1{
   display: none;
 
@@ -464,6 +518,7 @@ li :hover {
 }
 
 /*Quienes Somos*/
+/*Ajustando la pagina*/
 
 #quienesSomos{
   margin-top: 250px;
@@ -471,25 +526,29 @@ li :hover {
   margin-bottom: 50px;
 
 }
+/*Ajustando el primer article, tamaño y psicion */
 #Quienes1{
   width: 1100px;
   float: right;
   margin-right: 30px;
 }
+/*Ajustando el video, tamaño y posicion */
 #quienesSomos video{
   width: 300px;
   margin-top: 20px;
 }
+/*Ajustando la imagen, tamaño y posicion*/
 #quienesSomos img{
   width: 300px;
   margin-top: 20px;
 }
+/*Ajustando el 2 article*/
 #Quienes2{
   width: 1100px;
   float: right;
   margin-right: 70px;
 }
-
+/*Estilos basicos a los articles , borde y color */
 .quien{
   color: white;
   border-radius: 10px;
@@ -497,6 +556,7 @@ li :hover {
   margin: 10px;
   background-color: #14253d;
 }
+/*Posicion del texto*/
 .quien p{
   padding-top: 80px;
 
