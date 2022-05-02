@@ -4,7 +4,7 @@
     padding: 0.2px 10px;
 }
 
-@media all and (max-width: 820px) {
+@media all and (max-width: 400px) {
   /*Ajustamos la pagina de quienes Somos para pantallas mas pequeñas que 820 px*/
   #quienesSomos article{
     display: block !important;
@@ -29,6 +29,9 @@
   width: 300px !important;
 
   }
+  nav{
+    display: block!important;
+  };
 
 }
 
@@ -295,7 +298,7 @@ footer p{
 /*Le damos tamaño a la imagen de la carta*/
 .carta img {
     width:300px;
-    height:450px ;
+    height:300px ;
 }
 
 /*Estilos a la carta, dandole tamaño color y para que se pongan en horizontal si caben. Overflow permite tener un scroll en la carta para podel leerlo todo*/
