@@ -1,61 +1,66 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Botón de cambiár de tema-->
-    <link id="css" href="estilosN.css" rel="stylesheet"/>
+    <link id="css" href="estilosN.css" rel="stylesheet" />
     <title>-Tienda</title>
-    
+    <link href="/feed_pau/feed.xml" type="application/rss+xml" title="RSS">
+    <link rel="alternate" type="aplication/atom+xml" title="Atom de Pau" href="/feed_pau/feedAtom.atom"/>
 </head>
+
 <body>
     <!--El div sirve para que las tarjetas no se superpongan al nav o el header-->
     <div class="presencacion">
-    <!--Muestra el logo, el título de la web y el botón de cambiar de modo-->
-    <header>
-        <img id="logo" src="imgs/logo.png"/>
-        <h1><strong>Padel de Marcas</strong></h1>
-        
-        <a href="index.html"><img id="cambiarModo" src="imgs/ModoClaro.png" alt=""></a>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Tienda</a></li>
-            <li><a href="QuienesSomosN.html">Quienes Somos</a></li>
-            <li><a href="contactoN.html">Contacto</a></li>
-            <li><a href="faqN.html">FAQ </a></li>
-        </ul>
-    </nav>
-</div>
+        <!--Muestra el logo, el título de la web y el botón de cambiar de modo-->
+        <header>
+            <img id="logo" src="imgs/logo.png" />
+            <h1><strong>Padel de Marcas</strong></h1>
+
+            <a href="index.html"><img id="cambiarModo" src="imgs/ModoClaro.png" alt=""></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="QuienesSomosN.html">Quienes Somos</a></li>
+                <li><a href="contactoN.html">Contacto</a></li>
+                <li><a href="faqN.html">FAQ </a></li>
+            </ul>
+        </nav>
+    </div>
     <aside>
-          <table>
-            <tr><td><br><br>Filtrar por Marca</td></tr>
-                <tr>
-                    <td>
-                        <!--
+        <table>
+            <tr>
+                <td><br><br>Filtrar por Marca</td>
+            </tr>
+            <tr>
+                <td>
+                    <!--
                             Filtrador, usa una función que segun el value de la opcíon solo se mostraran las cartas con la misma marca por valor
                             el 0 es que se mostraran todas las cartas
                         -->
-                        <select id="filtrador" onchange="loadDoc()">
-                            <option default value="0"></option>
-                            <option value="Adidas">Adidas</option>
-                            <option value="Nox">Nox</option>
-                            <option value="Siux">Siux</option>
-                            <option value="Babolat">Babolat</option>
+                    <select id="filtrador" onchange="loadDoc()">
+                        <option default value="0"></option>
+                        <option value="Adidas">Adidas</option>
+                        <option value="Nox">Nox</option>
+                        <option value="Siux">Siux</option>
+                        <option value="Babolat">Babolat</option>
 
-                        </select> 
-                    </td>
-                    <td>
-                        <br>
-                        <br>
-                        <br>
+                    </select>
+                </td>
+                <td>
+                    <br>
+                    <br>
+                    <br>
 
-                    </td>
+                </td>
 
-                </tr>
-                
+            </tr>
 
-          </table>  
+
+        </table>
     </aside>
     <!--En el main se generarán las cartas de las raquetas a partir del xml-->
     <main id="page">
@@ -66,8 +71,15 @@
         <p>Daniel Montoliu y Pau Botella</p>
         <p>Dia de Inicio: 14/4/2022</p>
         <p>Dia de Finalización: //2022</p>
+        <a type="application/rss+xml" href="feed_pau/feed.xml">
+            <img src="imgs/rssNegro.png" width="36" height="20">
+        </a>
+        <a type="application/atom+xml" href="feed_pau/feedAtom.atom">
+            <img src="imgs/atomNegro.png" width="36" height="20">
+        </a>
     </footer>
 </body>
 <!--Llamar al script que genera las cartas y el que tiene también la función del filtro-->
 <script src="productos.js"></script>
+
 </html>

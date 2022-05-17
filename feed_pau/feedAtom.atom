@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Padel de marcas</title>
+  <link rel="self" href="https://danielmontoliullopis.github.io/ProyectoMarcas/indexN.html" type="aplication/atom+xml"/>
+  <link href="https://danielmontoliullopis.github.io/ProyectoMarcas/indexN.html"/>
+  <updated>2022-05-17T15:00:08Z</updated>
+  <author><name>Pau Botella</name></author>
+  <id>https://danielmontoliullopis.github.io/ProyectoMarcas/indexN.html</id>
+
+  <entry>
+    <title>Primer asalto al cuadro final masculino: duelos con sabor para abrir boca</title>
+    <link href="http://www.padelspain.net/padel-profesional/18921/Primer-asalto-al-cuadro-final-masculino-duelos-con-sabor-para-abrir-boca"/>
+    <id>http://www.padelspain.net/padel-profesional/18921/Primer-asalto-al-cuadro-final-masculino-duelos-con-sabor-para-abrir-boca</id>
+    <updated>2022-05-17T15:00:09Z</updated>
+    <summary>Partido de padel espectacular</summary>
+    <author><name>Pau Botella</name></author>
+  </entry>
+    
+  <entry>
+    <title>Gran contundencia y dominio de las duplas favoritas para acceder al cuadro final</title>
+    <link href="http://www.padelspain.net/padel-profesional/18924/Gran-contundencia-y-dominio-de-las-duplas-favoritas-para-acceder-al-cuadro-final"/>
+    <id>http://www.padelspain.net/padel-profesional/18924/Gran-contundencia-y-dominio-de-las-duplas-favoritas-para-acceder-al-cuadro-final</id>
+    <updated>2022-05-17T15:00:01Z</updated>
+    <summary>Cuadro final</summary>
+    <author><name>Pau Botella</name></author>
+  </entry>
+
+  <entry>
+    <title>El cuadro femenino de Dinamarca encendió la luz verde y puso la directa para terminar rápidamente las pre-previas</title>
+    <link href="http://www.padelspain.net/padel-profesional/18919/El-cuadro-femenino-de-Dinamarca-encendio-la-luz-verde-y-puso-la-directa-para-terminar-rapidamente-las-pre-previas"/>
+    <id>http://www.padelspain.net/padel-profesional/18919/El-cuadro-femenino-de-Dinamarca-encendio-la-luz-verde-y-puso-la-directa-para-terminar-rapidamente-las-pre-previas</id>
+    <updated>2022-05-17T15:00:02Z</updated>
+    <summary>Cuadro femenino</summary>
+    <author><name>Pau Botella</name></author>
+  </entry>
+</feed>
