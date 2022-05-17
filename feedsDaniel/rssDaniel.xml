@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+    <title>RSS de Daniel</title>
+    <link>https://danielmontoliullopis.github.io/ProyectoMarcas/</link>
+    <description>Ejercicio RSS Daniel Montoliu</description>
+    <language>es</language>
+    <item>
+        <title>Ganadores Bruselas</title>
+        <link>https://www.worldpadeltour.com/noticias/competicion/lebron-y-galan-campeones-del-circus-brussels-padel-open-2022/#:~:text=Lebr%C3%B3n%20y%20Gal%C3%A1n%2C%20campeones%20del%20Circus%20Brussels%20Padel%20Open%202022,-Los%20n%C3%BAmero%20uno</link>
+        <description>Juan Lebron y Alejandoro Galan ganadores del bruselas padel open.</description>
+
+    </item>
+    <item>
+        <title>Jugador Rompe 3 palas</title>
+        <link>https://www.padeladdict.com/que-pasa-si-se-te-rompe-el-cordon-de-la-pala/</link>
+        <description>¿Qué pasa si se te rompe el cordón de la pala? ¿Y si se te cae una pelota del bolsillo durante un punto?</description>
+
+    </item>
+    <item>
+        <title>Finalistas Bruselas WPT</title>
+        <link>https://as.com/masdeporte/2022/05/07/polideportivo/1651935115_920022.html</link>
+        <description>Franco Stupaczuk y Pablo Lima finalistas en su primer torneo</description>
+
+    </item>
+</channel>
+</rss>

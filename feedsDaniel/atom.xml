@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+   <title>Atom de Daniel</title>
+   <link rel="self" href="https://danielmontoliullopis.github.io/ProyectoMarcas/" type="aplication/atom+xml"/>
+   <id>https://danielmontoliullopis.github.io/ProyectoMarcas/</id>
+   <updated>2017-09-22T03:58:52+02:00</updated>
+   <author>
+      <name>Daniel</name>
+   </author>
+   <category term="Padel"/>
+   <entry>
+      <title>Definido al completo el cuadro final en Dinamarca</title>
+      <link rel="alternate" 
+href="https://www.worldpadeltour.com/noticias/competicion/definido-al-completo-el-cuadro-final-en-dinamarca/"/>
+      
+<id>https://www.worldpadeltour.com/noticias/competicion/definido-al-completo-el-cuadro-final-en-dinamarca/</id>
+      <updated>2017-09-20T13:29:08+02:01</updated>
+      <author>
+         <name>WorldPadelTour</name>
+      </author>
+      <category term="Padel"/>
+   </entry>
+   <entry>
+    <title>Cuatro parejas acceden al cuadro del Danish Padel Open 2022</title>
+    <link rel="alternate" 
+href="https://www.worldpadeltour.com/noticias/competicion/cuatro-parejas-acceden-al-cuadro-del-danish-padel-open-2022/"/>
+    
+<id>https://www.worldpadeltour.com/noticias/competicion/cuatro-parejas-acceden-al-cuadro-del-danish-padel-open-2022/</id>
+    <updated>2017-09-20T13:29:08+02:02</updated>
+    <author>
+       <name>WPT</name>
+    </author>
+    <category term="Padel"/>
+ </entry>
+ <entry>
+    <title>Todo preparado para la ronda final de previas</title>
+    <link rel="alternate" 
+href="https://www.worldpadeltour.com/noticias/competicion/todo-preparado-para-la-ronda-final-de-previas/"/>
+    
+<id>https://www.worldpadeltour.com/noticias/competicion/todo-preparado-para-la-ronda-final-de-previas/</id>
+    <updated>2017-09-20T13:29:08+02:03</updated>
+    <author>
+       <name>WPT</name>
+    </author>
+    <category term="Padel"/>
+ </entry>
+</feed>
